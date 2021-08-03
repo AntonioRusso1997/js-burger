@@ -13,6 +13,7 @@ main {
     width: 50%;
     height: 100vh;
     margin: 0 auto;
+    background-color: white;
 }
 
 /* Main Top */
@@ -47,7 +48,7 @@ main {
     padding: 50px;
 }
 
-#create-burger {
+#burger-name {
     font-size: 30px;
     margin-bottom: 40px;
 }
@@ -56,8 +57,16 @@ label {
     font-size: 20px;
 }
 
-label img {
+.label-img {
     height: 50px;
+}
+
+label span {
+    font-weight: 600;
+}
+
+#calculate-btn {
+    width: 20%;
 }
 /* / Main Content */
 
