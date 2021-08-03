@@ -17,8 +17,83 @@
 
         </div>
         <div id="main-content">
-
+            <input id="create-burger" type="text" placeholder="Name Your Burger">
+            <h3>Ingredients</h3>
+            <div class="row">
+                <div class="col d-flex flex-column">
+                    <label for="Cheese">
+                        <img src="img/cheese.svg" alt="" class="imagini"> 
+                        <span>
+                            Cheese
+                        </span> 
+                        <input type="checkbox" name="Cheese" id="Cheese" class="aggiunte">
+                        <span>
+                            add
+                        </span>
+                    </label>
+                    <label for="Egg">
+                        <img src="img/fried-egg.svg" alt="" class="imagini"> 
+                        <span>
+                            Egg
+                        </span>
+                        <input type="checkbox" name="Egg" id="Egg" class="aggiunte">
+                         <span>
+                            add
+                        </span>
+                    </label>
+                    <label for="Mustard">
+                        <img src="img/mustard.svg" alt="" class="imagini"> 
+                        <span>
+                            Mustard
+                        </span>
+                        <input type="checkbox" name="Mustard" id="Mustard" class="aggiunte">
+                         <span>
+                            add
+                        </span>
+                    </label>
+                </div>
+                <div class="col d-flex flex-column">
+                    <label for="Tomato">
+                        <img src="img/tomato.svg" alt="" class="imagini"> 
+                        <span>
+                            Tomato
+                        </span>
+                        <input type="checkbox" name="Tomato" id="Tomato" class="aggiunte">
+                         <span>
+                            add
+                        </span>
+                    </label>
+                    <label for="Lettuce">
+                        <img src="img/lettuce.svg" alt="" class="imagini"> 
+                        <span>
+                            Lettuce
+                        </span>
+                        <input type="checkbox" name="Lettuce" id="Lettuce" class="aggiunte">
+                         <span>
+                            add
+                        </span>
+                    </label>
+                    <label for="ketchup">
+                        <img src="img/ketchup.svg" alt="" class="imagini"> 
+                        <span>
+                            Ketchup
+                        </span>
+                        <input type="checkbox" name="ketchup" id="ketchup" class="aggiunte">
+                         <span>
+                            add
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <div class="row w-100 d-flex flex-row mt-5">
+                <label class="col-3" for="Discount">Discount Coupon </label>
+                <input class="col-9" type="text" placeholder="12354ABCDEF">
+            </div>
+            <div class="row d-flex justify-content-center align-items-center mt-4">
+                <button type="button" class="col-2 btn btn-warning fw-bold fs-4">calculate</button>
+            </div>
         </div>
+
         <div id="main-bottom">
             <p class="your-price text-white fw-bold">Your Price</p>
             <p class="price text-white fw-bold">$ 50</p>
