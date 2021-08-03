@@ -3,3 +3,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #fff5e2;
+}
+
+main {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/* Main Top */
+#main-top {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: #fdbb40;
+}
+
+.main-title {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.logo-burger {
+    position: absolute;
+    right: -60px;
+    top: -30px;
+}
+/* / Main Top */
+
+/* Main Content */
+#main-content {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 75%;
+}
+/* / Main Content */
+
+/* Main Bottom */
+#main-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color:#d33359;
+}
+
+.bottom-container {
+    width: 100%;
+    height: 100%;
+}
+
+.your-price {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.price {
+    font-size: 35px;
+    margin-right: 50px;
+}
+/* / Main Bottom */
+
+/* ----> DEBUG <---- */
+.debug main {
+    background-color: lightgreen;
+}
+
+.debug .bottom-container {
+    background-color: royalblue;
+}
+
+.row {
+    background-color: blue;
+}
