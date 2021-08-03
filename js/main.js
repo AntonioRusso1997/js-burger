@@ -10,12 +10,13 @@ let couponList = [
 
 // Dichiaro variabili
 let calculateBtn = document.getElementById("calculate-btn");
-let price = 50;
+let price;
 let coupon = document.getElementById("coupon");
 
 //Creo funzione tasto "Calculate"
 calculateBtn.addEventListener("click", function()
 {
+    price = 50;
     //Variabili degli input inseriti
     var burgerName = document.getElementById("burger-name").value;
     if (burgerName != "") {
@@ -44,5 +45,7 @@ function addIngredient(element) {
 function addCoupon(array, input) {
     if ( array.includes(input.value) ) {
         price -= price * 0.2;
+    }else {
+        coupon.classList.add("bg-danger", "text-white");
     }
 }
